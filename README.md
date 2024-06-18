@@ -245,3 +245,7 @@ Naming and Usage: Despite the technical differences, the terms "SSL" and "TLS" a
 DLP --> Data Loss Prevention. 
 
 Pipes (|): Pipes are a way to connect the output of one command to the input of another command. 
+
+# Cryptography
+
+Cryptography is a technique of securing information and communications through the use of codes so that only those persons for whom the information is intended can understand and process it. Thus preventing unauthorized access to information. The prefix “crypt” means “hidden” and the suffix “graphy” means “writing”.
