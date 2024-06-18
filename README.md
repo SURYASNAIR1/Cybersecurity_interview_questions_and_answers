@@ -45,6 +45,16 @@ nmap aggressive detection: $nmap -A <target>
 
 Aggressive Detection command enables OS detection (-O), script scanning (-sC), version detection (-sV),  and traceroute (--traceroute)
 
+*Other scans in nmap:* 
+
+1. UDP Scans (-sU): Used to discover open UDP ports and services. UDP scans are less reliable due to the lack of a three-way handshake.
+
+2. NULL Scan (-sN): Sends packets with no flags set to determine port status. If a port is closed, it responds with an RST packet.
+
+3. FIN Scan: Similar to NULL scan but sends packets with only the FIN flag set.
+
+4. XMAS Scan: Sends packets with FIN, URG, and PUSH flags set. Useful for detecting open ports.
+
 Slowest and fastest scan in nmap: -T0 as the slowest and –T5 as the fastest.
 
 Nmap is in which OSI layer: Transport Layer
