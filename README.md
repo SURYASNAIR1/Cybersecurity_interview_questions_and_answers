@@ -63,7 +63,7 @@ To write nmap: C, C++, Python, Lua
 
 Scan a target from specific interface: #nmap -e <interface> <target>
 
-Components of nmpa: source IP, destination IP, source port and destination port
+Components of nmap: source IP, destination IP, source port and destination port
 
 Scan Types in Nmap- TCP Connect Scans ( -sT ), SYN “Half-open” Scans ( -sS ), UDP Scans ( -sU ), TCP Null Scans ( -sN ), TCP FIN Scans ( -sF ) and TCP Xmas Scans ( -sX ) 
 
