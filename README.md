@@ -62,3 +62,25 @@ OS Fingerprinting: Identifies what operating system is running on a given host b
 Nmap is a port scanner that identifies open ports. At the same time, Wireshark is a protocol analyser that helps security engineers to read the structure of different packets.
 
 The attacker sends a packet to the target without any flags set within it. The target will be confused and will not respond. This will indicate the port is open on the target. If the target responds with an RST packet, the port is closed.
+
+# Firewall
+
+Firewalls can be classified into several types:
+
+1. Packet-Filtering Firewalls: These inspect packets at the network layer and make filtering decisions based on predefined rules (e.g., IP addresses, ports).
+
+2.  Stateful Inspection Firewalls: These monitor the state of active connections and make decisions based on the state and context of the traffic.
+
+3.  Proxy Firewalls: These act as intermediaries between end users and the services they access, inspecting traffic at the application layer.
+
+4.  Next-Generation Firewalls (NGFW): These combine traditional firewall capabilities with advanced features like deep packet inspection, intrusion prevention systems (IPS), and application awareness.
+
+# Threat, vulnerability and risk 
+
+Threat: A threat refers to a malicious act or circumstance that can cause harm to an IT system. It includes actions like computer viruses, Denial of Service (DoS) attacks, data breaches, and even dishonest employees.
+
+Vulnerability: A weakness or flaw in a system that can be exploited by a threat to gain unauthorized access or cause harm.
+
+Risk: The potential for loss or damage when a threat exploits a vulnerability. 
+Risk = Threat + Vulnerability
+
