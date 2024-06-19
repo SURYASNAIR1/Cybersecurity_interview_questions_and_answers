@@ -249,3 +249,53 @@ Pipes (|): Pipes are a way to connect the output of one command to the input of 
 # Cryptography
 
 Cryptography is a technique of securing information and communications through the use of codes so that only those persons for whom the information is intended can understand and process it. Thus preventing unauthorized access to information. The prefix “crypt” means “hidden” and the suffix “graphy” means “writing”.
+
+# OSI Layer
+
+Securing each OSI layer (Open Systems Interconnection model) is crucial for maintaining overall network security. 
+
+1. **Physical Layer (Layer 1):**
+   - **Definition:** This layer deals with the physical connection between devices and the transmission of raw data bits over a physical medium.
+   - **Security Measures:**
+     - **Physical security:** Ensure that physical access to network devices, cables, and infrastructure is restricted to authorized personnel only.
+     - **Encryption of physical connections:** Use technologies like VPNs (Virtual Private Networks) to secure data transmitted over physical connections.
+
+2. **Data Link Layer (Layer 2):**
+   - **Definition:** This layer provides node-to-node data transfer, ensuring data is delivered error-free between directly connected nodes.
+   - **Security Measures:**
+     - **MAC address filtering:** Limit which devices can access the network by filtering based on MAC addresses.
+     - **VLANs (Virtual Local Area Networks):** Segregate network traffic to improve security and performance.
+     - **802.1X authentication:** Provides port-based network access control, requiring users or devices to authenticate before gaining network access.
+
+3. **Network Layer (Layer 3):**
+   - **Definition:** This layer handles logical addressing, routing, and forwarding of data packets between different networks.
+   - **Security Measures:**
+     - **Firewalls:** Implement firewalls to filter and control incoming and outgoing traffic based on predetermined security rules.
+     - **IPSec (IP Security):** Provides encryption and authentication at the IP layer to ensure secure communication between nodes.
+     - **Network segmentation:** Divide the network into smaller, isolated segments to limit the impact of security breaches.
+
+4. **Transport Layer (Layer 4):**
+   - **Definition:** This layer ensures reliable data transfer between end systems and provides error-checking mechanisms.
+   - **Security Measures:**
+     - **TLS/SSL (Transport Layer Security/Secure Sockets Layer):** Encrypts data exchanged between applications to ensure confidentiality and integrity.
+     - **TCP/IP filtering:** Use firewalls or intrusion detection systems to monitor and filter traffic based on TCP/IP port numbers.
+
+5. **Session Layer (Layer 5):**
+   - **Definition:** This layer establishes, manages, and terminates sessions between applications.
+   - **Security Measures:**
+     - **Session management:** Implement mechanisms to authenticate and authorize sessions, ensuring that only authorized users can establish sessions.
+     - **Token-based authentication:** Use tokens to verify the identities of users and devices involved in the session.
+
+6. **Presentation Layer (Layer 6):**
+   - **Definition:** This layer ensures that data is presented in a readable format for the application layer.
+   - **Security Measures:**
+     - **Data encryption:** Encrypt data at this layer to protect it during transmission and storage.
+     - **Data validation:** Implement mechanisms to validate the integrity and authenticity of data at this layer.
+
+7. **Application Layer (Layer 7):**
+   - **Definition:** This layer provides an interface between the user and the network services.
+   - **Security Measures:**
+     - **Authentication and authorization:** Implement strong authentication mechanisms (e.g., multi-factor authentication) and granular access controls.
+     - **Application-level encryption:** Encrypt sensitive data within applications to protect it from unauthorized access.
+     - **Regular updates and patches:** Keep applications up to date with security patches to mitigate vulnerabilities.
+
